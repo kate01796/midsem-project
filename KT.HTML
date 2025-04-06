@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Waves - Blog</title>
+    <style>
+        /* Reset Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Body and General Styling */
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #023e8a;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            background: #00b4d8;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background: url('https://source.unsplash.com/1600x600/?writing,blog') no-repeat center;
+            background-size: cover;
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Blog Section */
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .blog-card {
+            background: white;
+            width: 350px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .blog-card:hover {
+            transform: scale(1.05);
+        }
+
+        .blog-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .blog-card h3 {
+            margin: 10px 0;
+        }
+
+        .blog-card p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .read-more {
+            display: inline-block;
+            padding: 8px 12px;
+            background: #0077b6;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .read-more:hover {
+            background: #00b4d8;
+        }
+
+        /* About Section */
+        .about {
+            background: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #0077b6;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: #eef;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            color: #0077b6;
+        }
+
+        .contact form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            padding: 10px 20px;
+            background: #0077b6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact button:hover {
+            background: #00b4d8;
+        }
+
+        /* Footer */
+        footer {
+            background: #023e8a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+        .social-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2em;
+            }
+
+            .blog-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .blog-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Writing Waves</h1>
+        <p>Ride the Waves of Creativity</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="kblog.html">Blogs</a>
+        <a href="k_about.html">About</a>
+        <a href="kcontact.html">Contact</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2 style="color: #023e8a;">Explore New Stories & Ideas</h2>
+    </div>
+
+    <!-- Blog Section -->
+    <div class="blog-container">
+        <div class="blog-card" style="background-color: #023e8a;color: #fff;">
+            <img src="kate1/BLOGING/art of writing.jpg" alt="Blog Image">
+            <h3>The Art of Writing</h3>
+            <p style="color: white;">Discover how writing can change the world...</p>
+            <a href="writing.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-card" style="background-color: #023e8a;color: #f5f5f5;">
+            <img src="kate1/BLOGING/creative flow.jpg" alt="Blog Image">
+            <h3>Creative Flow</h3>
+            <p style="color: white;">Unlock your creativity and dive into imagination...</p>
+            <a href="creative.html" class="read-more">Read More</a>
+        </div>
+
+        <div class="blog-card" style="background-color: #023e8a;color: #f5f5f5;">
+            <img src="kate1/BLOGING/journaling.jpg" alt="Blog Image">
+            <h3>Journaling for Growth</h3>
+            <p style="color: white;">How journaling can help you develop mindfulness...</p>
+            <a href="journaling.html" class="read-more">Read More</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Writing Waves</h2>
+        <p>Writing Waves is a blog dedicated to writers, thinkers, and creative minds...</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Writing Waves | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+</body>
+</html>

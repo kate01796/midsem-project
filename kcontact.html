@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Waves - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        
+    
+        
+    </header>
+
+    <section class="contact-section" style=" background-color: #023e8a;
+    color: rgb(251, 255, 255);
+    text-align: left: ;;
+    padding: 1rem 0;">
+        <h2> CALL US</h2>
+        <p>Tel: +233534009429 | Fax: +233509611467</p>
+
+        <h2>EMAIL US</h2>
+        <p><a href="Azimcarmart.com" style="color: aqua;">writingwaves@gmail.com</a></p>
+
+        <h2>OPENING HOURS</h2>
+        <p> 247 everyday</p>
+
+        <div class="button-container">
+            <button onclick="location.href='tel:+233554068384'">Call Now</button>
+            <button onclick="location.href='mailto:Azim_uniqueS.com'">Email Us</button>
+            <button onclick="alert('Opens 247 everyday')">Hours</button>
+        </div>
+    </section>
+
+    <section class="contact-content">
+    
+        <p>Have questions or feedback? We'd love to hear from you!</p>
+        <form id="contactForm" style="background-color: #023e8a;color: white;">
+             <p><<label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            </p>
+            <br>
+
+             <p><label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            </p>
+            <br>
+
+           <p> <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            </p>
+            <br>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="messageSent" style="display: none;">
+            <p>Your message has been sent!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Writing Waves. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
